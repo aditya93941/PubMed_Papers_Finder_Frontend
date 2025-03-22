@@ -32,7 +32,7 @@ function Results() {
     
     setIsDownloading(true);
     try {
-      const response = await fetch('http://localhost:3001/api/papers/download', {
+      const response = await fetch('https://pubmed-papers-finder-backend.onrender.com/api/papers/download', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
