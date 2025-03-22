@@ -1,0 +1,27 @@
+{
+  "name": "pubmed-papers-finder-ui",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pubmed",
+    "research papers",
+    "pharmaceutical",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3"
+  },
+  "description": "A web interface for fetching and analyzing research papers from PubMed with focus on pharmaceutical/biotech company authors",
+  "devDependencies": {
+    "parcel": "^2.14.1"
+  }
+}
