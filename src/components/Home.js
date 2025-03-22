@@ -18,7 +18,7 @@ function Home() {
     setError('');
 
     try {
-      const response = await fetch(`http://localhost:3001/api/papers?query=${encodeURIComponent(query)}`);
+      const response = await fetch(`https://pubmed-papers-finder-backend.onrender.com/api/papers?query=${encodeURIComponent(query)}`);
       
       if (!response.ok) {
         throw new Error(`Error: ${response.status} ${response.statusText}`);
